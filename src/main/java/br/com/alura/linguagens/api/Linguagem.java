@@ -25,6 +25,10 @@ public class Linguagem {
         return id;
     }
 
+    public void setId(String id) {
+        this.id = id;
+    }
+
     public String getTitle() {
         return title;
     }
@@ -36,4 +40,6 @@ public class Linguagem {
     public int getRanking() {
         return ranking;
     }
+
+    
 }
